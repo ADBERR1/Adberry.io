@@ -12,15 +12,12 @@
 <img id="logo" src="./img/logo.png">
 
 <script>
-  var startTime = new Date().getTime(); // Obtén la hora de inicio
-  
-  document.getElementById("logo").addEventListener("load", function() {
-    var endTime = new Date().getTime(); // Obtén la hora de finalización
-    var totalTime = endTime - startTime; // Calcula el tiempo total
-  
-    console.log("El logo se cargó en " + totalTime + " milisegundos.");
+  window.addEventListener("load", function() {
+    var logoCarga = document.getElementById("logo-carga");
+    logoCarga.style.display = "none";
   });
 </script>
+
 
 <p>Bienvenidos</p>
  
