@@ -1,23 +1,19 @@
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+<style>
+  #logo-carga {
     position: fixed;
+    z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999;
-}
-
-img{
-   max-widht: 6rem;
-}
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logo-carga img {
+    width: 100px;
+    height: 100px;
+  }
+</style>
