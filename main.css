@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    z-index: 99999; 
+    z-index: 9999; 
+    width: 100%;
     background-color: #fff;
   }
   
   #logo-carga img {
-    width: 10px;
-    height: 10px;
+    width: 80px;
+    height: 80px;
   }
 </style>
   
