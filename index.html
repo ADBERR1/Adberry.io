@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 
+<div id="loader"></div>
+
+window.onload = function() {
+  document.getElementById("loader").style.display = "none";
+};
+
 <title>Archivos Regedits</title>
 
-   <link rel="stylesheet" href="./main.css"> 
-
-</head>
-<body>
-
-<div id="logo-carga">
-  <img src="./img/logo.png" alt="Logo cargando...">
-</div>
-
 <script>
-
-window.addEventListener("load", function() {
-    var logoCarga = document.getElementById("logo-carga");
-    logoCarga.style.display = "none";
-  });
+  window.onload = function() {
+    document.getElementById("loader").style.display = "none";
+  };
 </script>
 
-<center><p1>ADBERRI...</p1></center>
+
+
 
 </body>
 </html>
